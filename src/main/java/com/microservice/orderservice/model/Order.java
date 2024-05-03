@@ -14,7 +14,7 @@ import java.util.List;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-public class Order {
+public class Order implements IAppEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;

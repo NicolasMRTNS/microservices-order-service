@@ -14,7 +14,7 @@ import java.math.BigDecimal;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-public class OrderLineItems {
+public class OrderLineItems implements IAppEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
