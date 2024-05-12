@@ -5,7 +5,7 @@ import com.microservice.orderservice.model.OrderLineItems;
 import org.springframework.stereotype.Component;
 
 @Component
-public class OrderMapperImpl implements IMapper<OrderLineItems, OrderLineItemsDto> {
+public class OrderMapper implements IMapper<OrderLineItems, OrderLineItemsDto> {
 
     @Override
     public OrderLineItems toEntity(OrderLineItemsDto orderLineItemsDto) {
